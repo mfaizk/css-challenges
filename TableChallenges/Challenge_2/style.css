@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+
+body {
+  font-family: "Indie Flower", sans-serif;
+}
+
+tr {
+  background-color: #7fffd3;
+}
+
+#myTitle {
+  color: #ea3229;
+}
+.heading {
+  color: #ea3229;
+}
+
+caption {
+  position: relative;
+  bottom: -19rem;
+  /* background-color: blue; */
+}

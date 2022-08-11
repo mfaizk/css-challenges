@@ -1,0 +1,184 @@
+
+body{
+    position: absolute;
+    bottom: 0px;
+}
+.content{
+   display: flex;
+   flex-direction: column;
+
+
+}
+
+.top{
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    background-color: #140b5c;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-details{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 5vh;
+    width: 300px;
+}
+
+.fa-slack{
+    margin-left: 200px;
+color: #fff;
+}
+.logo_name{
+
+    color: #fff;
+    font-size: 30px;
+    margin-left: 5px;
+
+}
+.media-icons{
+    margin-right: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.media-icons a {
+    margin: 20px;
+    
+
+}
+
+.fa-facebook-f{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #4267b2;
+    border: none;
+}
+
+.fa-twitter{
+
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #1ea1f1;
+    border: none;
+}
+
+.fa-instagram{
+
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #e12f6d;
+    border: none;
+
+}
+
+.fa-linkedin-in{
+
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #0277b5;
+    border: none;
+}
+
+.fa-youtube{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: #ff0000;
+    border: none;
+
+}
+
+hr{
+    display: block;
+    border-top: 1px solid #ccc;
+    margin: 0em 0;
+}
+
+.link-boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #140b5c;
+    height: 18vh;
+}
+li,a{
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+.bottom-details{
+    color: #fff;
+    background-color: #0f0843;
+    height: 3vh;
+    
+}
+
+.bottom_text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 230px;
+    margin-right: 200px;
+}
+.link_name{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+[placeholder="Enter your email" ]{
+    width: 13vw;
+    height: 3vh;
+    background-color: #140b5c;
+    border: solid #fff;
+    border-width: 1px;
+    color: #fff;
+    
+}
+[placeholder="Enter your email" ]::placeholder{
+    color: #fff;
+    padding-left: 10px;
+}
+
+[value="Subscribe"]{
+    width: 13vw;
+    height: 3vh;
+    color: #140b5c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.policy_terms a{
+    margin-left: 10px;
+}
+.copyright_text a{
+    margin-left: 15px;
+}
